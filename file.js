@@ -69,3 +69,4 @@ pauseButton.addEventListener("click", function() {
       o(".navbar").removeClass("d-none")
   })
 }(jQuery);
+$(".nano").nanoScroller({ flash: true });
