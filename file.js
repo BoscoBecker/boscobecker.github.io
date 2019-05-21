@@ -11,14 +11,6 @@ function vidFade() {
   vid.classList.add("stopfade");
 }
 
-vid.addEventListener('ended', function()
-{
-// only functional if "loop" is removed 
-vid.pause();
-// to capture IE10
-vidFade();
-}); 
-
 
 pauseButton.addEventListener("click", function() {
   vid.classList.toggle("stopfade");
@@ -69,4 +61,3 @@ pauseButton.addEventListener("click", function() {
       o(".navbar").removeClass("d-none")
   })
 }(jQuery);
-$(".nano").nanoScroller({ flash: true });
