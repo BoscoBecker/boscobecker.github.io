@@ -1,3 +1,9 @@
+/*!
+* João bosco dos Reis Becker
+* Powered by @boscobecker - 2019
+*  Licensed under MIT (https://github.com/BoscoBecker/boscobecker.github.io)
+*/
+
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -8,7 +14,6 @@
     background: white;
     box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
-
 
 body {
     margin: 0;
@@ -25,7 +30,7 @@ body {
       /*z-index: -100;*/
       transform: translateX(-50%) translateY(-50%);
     background-size: cover;
-    transition: 1s opacity;
+    transition: 3s opacity;
   }
   
  h1 {
@@ -516,22 +521,22 @@ body {
 }
 
 .fa-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     transform: rotate(90deg)
 }
 
 .fa-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
     transform: rotate(180deg)
 }
 
 .fa-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
     transform: rotate(270deg)
 }
 
 .fa-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
     transform: scaleX(-1)
 }
 
@@ -540,7 +545,7 @@ body {
 }
 
 .fa-flip-both,.fa-flip-horizontal.fa-flip-vertical,.fa-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
 }
 
 .fa-flip-both,.fa-flip-horizontal.fa-flip-vertical {
@@ -20111,8 +20116,7 @@ body.preview-page {
 
 .bsa-cpc .default-image img {
     display: inline-block;
-    vertical-align: middle;
-    float: left;
+    vertical-align: middle;    
     margin-right: 10px;
     width: 36px;
     border-radius: 7.5%
@@ -30653,22 +30657,22 @@ a.text-dark:focus,a.text-dark:hover {
 }
 
 .fa-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     transform: rotate(90deg)
 }
 
 .fa-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
     transform: rotate(180deg)
 }
 
 .fa-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
     transform: rotate(270deg)
 }
 
 .fa-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
     transform: scaleX(-1)
 }
 
@@ -30677,7 +30681,7 @@ a.text-dark:focus,a.text-dark:hover {
 }
 
 .fa-flip-both,.fa-flip-horizontal.fa-flip-vertical,.fa-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
 }
 
 .fa-flip-both,.fa-flip-horizontal.fa-flip-vertical {
@@ -37630,7 +37634,7 @@ div#goog-gt-tt {
     background-image: linear-gradient(top,#f6f6f6,#f1f1f1)
 }
 
-#goog-gt-tt .translate-form .activity-form input:focus #goog-gt-tt .translate-form .activity-form input.focus #goog-gt-tt .translate-form .activity-form input:active,#goog-gt-tt .translate-form .activity-form input:focus:active,#goog-gt-tt .translate-form .activity-form input:.focus:active {
+#goog-gt-tt .translate-form .activity-form input:focus #goog-gt-tt .translate-form .activity-form input.focus #goog-gt-tt .translate-form .activity-form input:active,#goog-gt-tt .translate-form .activity-form input:focus:active,#goog-gt-tt .translate-form .activity-form input:focus:active {
     box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
     -webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
     -moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5)
