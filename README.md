@@ -16,4 +16,4 @@ resolvi colocar os arquivos tudo na rair do projeto
 * License MIT
 
 
-> @boscobecker, powered by IESDE - 2019
+> @boscobecker - 2019
