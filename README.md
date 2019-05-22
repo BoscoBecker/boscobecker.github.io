@@ -13,4 +13,7 @@ resolvi colocar os arquivos tudo na rair do projeto
 * Bug Fix no Css, estava fazendo não aparecer o vídeo em versões Mobile
 * Adicionado Tags Meta para SEO
 * robots.txt
+* License MIT
 
+
+> @boscobecker, powered by IESDE - 2019
