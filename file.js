@@ -1,3 +1,9 @@
+/*!
+* João bosco dos Reis Becker
+* Powered by @boscobecker - 2019
+*  Licensed under MIT (https://github.com/BoscoBecker/boscobecker.github.io)
+*/
+
 var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#polina button");
 
@@ -10,19 +16,6 @@ if (window.matchMedia('(prefers-reduced-motion)').matches) {
 function vidFade() {
   vid.classList.add("stopfade");
 }
-
-
-pauseButton.addEventListener("click", function() {
-  vid.classList.toggle("stopfade");
-  if (vid.paused) {
-    vid.play();
-    pauseButton.innerHTML = "Pause";
-  } else {
-    vid.pause();
-    pauseButton.innerHTML = "Paused";
-  }
-})
-
 
 /*!
  * Start Bootstrap - Agency v5.1.1 (https://startbootstrap.com/template-overviews/agency)
