@@ -53,4 +53,4 @@ function vidFade() {
   o(".portfolio-modal").on("hidden.bs.modal", function(a) {
       o(".navbar").removeClass("d-none")
   })
-}(jQuery);
+}
