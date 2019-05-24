@@ -11,14 +11,7 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
-
 }
-
-.zoom-effect-container:hover .image-card img {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
-  }
-  
 
 
 ::-webkit-scrollbar {
