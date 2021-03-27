@@ -1,19 +1,19 @@
-# Portifólio João Bosco Dos reis Becker
-Esse projeto é um simples portifólio pessoal demonstrando minhas experiências profissionais até o momento.
+# João Bosco Dos Reis Becker portfolio
+This project is a simple personal portfolio showing my professional experiences so far.
 
-## Como fiz esse site ?
-Site simples usando HTML5 CSS3 e um vídeo como fundo.
+## How did I make this site?
+Simple website using HTML5 CSS3 and a video as a background.
 
-### Estrutura
-Como o GitHub deixa fazer upload de apenas uma página chamada index.html
-resolvi colocar os arquivos tudo na rair do projeto
+### Structure
+How GitHub lets you upload just one page called index.html
+I decided to put the files all in the project's rair
 
 #### Features
 
-* Bug Fix no Css, estava fazendo não aparecer o vídeo em versões Mobile
-* Adicionado Tags Meta para SEO
+* Bug Fix in Css, I was not showing the video in Mobile versions
+* Added Meta Tags for SEO
 * robots.txt
-* License MIT
+* MIT License 
 
 
-> @boscobecker - 2019  
+Make with ❤ @boscobecker
