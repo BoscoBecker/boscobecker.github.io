@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: boscobecker.github.io
+Token: 17db5ad2fd6cbdc717379c54e39447a7f8d182206269b093371032755f632865
